@@ -1,7 +1,14 @@
-# eslint-config-commons
+# eslint-config-allinone
 Author: github/arpitjp
 
-## install
+## Install
 `npm i -D eslint-config-allinone`
-## install peer deps
+
+## Install peer dependencies
 `npm i -D eslint eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-react eslint-plugin-react-hooks`
+
+## Available plugins
+- eslint-pugin-jest
+- eslint-plugin-import
+- eslint-plugin-react
+- eslint-plugin-react-hooks
