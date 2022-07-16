@@ -9,6 +9,9 @@ module.exports = {
     "plugin:react-hooks/recommended",
   ],
   plugins: ['import'],
+  settings : {
+  "import/extensions": ["js", "jsx", "ts", "tsx"]
+},
   overrides: [
     {
       // jest only on test files
