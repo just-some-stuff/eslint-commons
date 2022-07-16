@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-commons",
+  "name": "eslint-config-allinone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,7 +20,12 @@
   },
   "keywords": [
     "eslint",
-    "eslint-config"
+    "eslint-config",
+    "eslint-plugin-import",
+    "eslint-plugin-react",
+    "eslint-plugin-react-hooks",
+    "eslint-pluin-jest",
+    "@arpit"
   ],
   "author": "Arpit Jain",
   "license": "ISC",

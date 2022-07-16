@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  parser: '@babel/eslint-parser',
   extends: [
     'eslint:recommended',
     'plugin:node/recommended-module',
