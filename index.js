@@ -1,16 +1,26 @@
 const path = require('path');
 
 module.exports = {
+  ignorePatterns: ["dist/**", "node_modules/**", "coverage/**"],
+  parserOptions: {
+    "ecmaVersion": "latest"
+  },
   extends: [
     'eslint:recommended',
     'plugin:node/recommended-module',
     'plugin:import/recommended',
+    'plugin:import/react',
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
   ],
   plugins: ['import'],
   settings : {
-  "import/extensions": ["js", "jsx", "ts", "tsx"]
+    "import/extensions": ["js", "jsx", "ts", "tsx"],
+    "import/resolver": {
+      "node": {
+        "extensions": [".js",".jsx", ".ts", ".tsx"]
+       }
+    }
 },
   overrides: [
     {
